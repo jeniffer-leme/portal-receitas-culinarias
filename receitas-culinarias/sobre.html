@@ -17,13 +17,15 @@
 
   <nav class="navbar navbar-expand-lg bg-body-tertiary" aria-label="Barra de navegação principal">
     <div class="container-fluid">
-      <a class="navbar-brand ms-5" href="#" aria-label="Página inicial">
-        <img src="imagens/logo.png" width="50" height="50" alt="Logo do Portal de Receitas" href="index.html">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+      <a class="navbar-brand ms-5" href="index.html">
+        <img src="imagens/logo.png" width="50" height="50" alt="Logo">
       </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
       <div class="collapse navbar-collapse ms-5" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
@@ -47,7 +49,6 @@
               <li><a class="dropdown-item sub" href="categoria/molhos.html">Molhos</a></li>
               <li><a class="dropdown-item sub" href="categoria/pratos-principais.html">Pratos Principais</a></li>
               <li><a class="dropdown-item sub" href="categoria/sobremesas.html">Sobremesas</a></li>
-              <li><a class="dropdown-item sub d-none" id="receitasadd" href="receritasADD.html"></a></li>
             </ul>
           </li> 
         </ul>
@@ -55,11 +56,11 @@
         <ul class="navbar-nav me-4 ms-auto">
           <section id="menu-naologado">
             <li class="nav-item dropdown">
-              <a class="navbar nav-link dropdown-toggle categoria" href="#" id="navbarDropdown" role="button"
+              <a class="nav-link dropdown-toggle categoria" href="#" id="navbarDropdownCategoria" role="button"
                 data-bs-toggle="dropdown" aria-expanded="false" title="Entrar/Registrar">
                 <i class="bi bi-person-circle" aria-hidden="true"></i>
               </a>
-              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownCategoria">
                 <li><a class="dropdown-item sub login" href="#" title="Página de login">Entrar</a></li>
                 <li><a class="dropdown-item sub perfil" href="#" title="Página de registro">Registrar</a></li>
               </ul>
@@ -68,7 +69,7 @@
 
           <section id="menu-logado" class="d-none">
             <li class="nav-item">
-              <a class="nav-link" href="receitasADD.html" title="Adicionar receita" id="adicionarReceitaIcone">
+              <a class="nav-link" href="receitas-add.html" title="Adicionar receita" id="adicionarReceitaIcone">
                 <i class="bi bi-journal-plus" id="adicionarReceita" aria-hidden="true"></i>
               </a>
             </li>
