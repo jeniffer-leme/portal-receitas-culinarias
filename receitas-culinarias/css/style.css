@@ -160,7 +160,7 @@ button.btn:hover {
 }
 
 .banner{
-  background-image:url(imagens/20250124_134535_0000.png);
+  background-image:url(../imagens/banner-principal.png);
   background-size: cover; 
   background-position: center; 
   height: 35vh; 
@@ -173,12 +173,12 @@ button.btn:hover {
 
 @media (max-width: 768px) {
   .banner {
-    background-image: url(imagens/20250124_134535_0000.png); 
+    background-image: url(../imagens/banner-principal.png); 
   }
 }
 
 .banner-entrada{
-  background-image:url(imagens/banner-entradas.jpg);
+  background-image:url(../categoria/imagens/banner-entradas.jpg);
   background-size: cover; 
   background-position: center; 
   height: 35vh; 
@@ -191,12 +191,12 @@ button.btn:hover {
 
 @media (max-width: 768px) {
   .banner {
-    background-image: url(imagens/banner-entradas.jpg); 
+    background-image: url(../categoria/imagens/banner-entradas.jpg); 
   }
 }
 
 .banner-aperitivo{
-  background-image:url(imagens/banner-aperitivo.jpg);
+  background-image:url(../categoria/imagens/banner-aperitivo.jpg);
   background-size: cover; 
   background-position: center; 
   height: 35vh; 
@@ -209,12 +209,12 @@ button.btn:hover {
 
 @media (max-width: 768px) {
   .banner {
-    background-image: url(imagens/banner-aperitivo.jpg); 
+    background-image: url(../categoria/imagens/banner-aperitivo.jpg); 
   }
 }
 
 .banner-pratos{
-  background-image:url(imagens/banner-pratos.jpg);
+  background-image:url(../categoria/imagens/banner-pratos.jpg);
   background-size: cover; 
   background-position: center; 
   height: 35vh; 
@@ -227,12 +227,12 @@ button.btn:hover {
 
 @media (max-width: 768px) {
   .banner {
-    background-image: url(imagens/banner-pratos.jpg); 
+    background-image: url(../categoria/imagens/banner-pratos.jpg); 
   }
 }
 
 .banner-molhos{
-  background-image:url(imagens/banner-molhos.jpg);
+  background-image:url(../categoria/imagens/banner-molhos.jpg);
   background-size: cover; 
   background-position: center; 
   height: 35vh; 
@@ -245,12 +245,12 @@ button.btn:hover {
 
 @media (max-width: 768px) {
   .banner {
-    background-image: url(imagens/banner-molhos.jpg); 
+    background-image: url(../categoria/imagens/banner-molhos.jpg); 
   }
 }
 
 .banner-sobremesas{
-  background-image:url(imagens/banner-sobremesas.jpg);
+  background-image:url(../categoria/imagens/banner-sobremesas.jpg);
   background-size: cover; 
   background-position: center; 
   height: 35vh; 
@@ -263,12 +263,12 @@ button.btn:hover {
 
 @media (max-width: 768px) {
   .banner {
-    background-image: url(imagens/banner-sobremesas.jpg); 
+    background-image: url(../categoria/imagens/banner-sobremesas.jpg); 
   }
 }
 
 .banner-bolos{
-  background-image:url(imagens/banner-bolos.jpg);
+  background-image:url(../categoria/imagens/banner-bolos.jpg);
   background-size: cover; 
   background-position: center; 
   height: 35vh; 
@@ -281,12 +281,12 @@ button.btn:hover {
 
 @media (max-width: 768px) {
   .banner {
-    background-image: url(imagens/banner-bolos.jpg); 
+    background-image: url(../categoria/imagens/banner-bolos.jpg); 
   }
 }
 
 .banner-bebidas{
-  background-image:url(imagens/banner-bebidas.jpg);
+  background-image:url(../categoria/imagens/banner-bebidas.jpg);
   background-size: cover; 
   background-position: center; 
   height: 35vh; 
@@ -299,12 +299,12 @@ button.btn:hover {
 
 @media (max-width: 768px) {
   .banner {
-    background-image: url(imagens/banner-bebidas.jpg); 
+    background-image: url(../categoria/imagens/banner-bebidas.jpg); 
   }
 }
 
 .banner-sobre{
-  background-image:url(imagens/sobre.jpg);
+  background-image:url(../imagens/banner-sobre.jpg);
   background-size: cover; 
   background-position: center; 
   height: 35vh; 
@@ -317,7 +317,7 @@ button.btn:hover {
 
 @media (max-width: 768px) {
   .banner {
-    background-image: url(imagens/sobre.jpg); 
+    background-image: url(../imagens/banner-sobre.jpg); 
   }
 }
 
