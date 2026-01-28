@@ -1,4 +1,3 @@
-
 let nome = document.getElementById("nome");
 let labelNome = document.getElementById("labelNome");
 let email = document.getElementById("email");
