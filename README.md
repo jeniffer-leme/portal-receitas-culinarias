@@ -68,8 +68,19 @@ O site permite ao usuário:
 Abaixo estão algumas telas do **Site de Receitas**, destacando suas principais funcionalidades:
 
 ### 🏠 Tela Inicial  
-Visão geral da página inicial do site.  
-<img src="receitas/imagens/tela-inicial.png" width="650">
+Visão geral da página inicial do site.
+
+<table>
+  <tr>
+    <td><img src="receitas-culinarias/imagens-site /tela-inicial.png" width="500"></td>
+    <td><img src="receitas-culinarias/imagens-site /tela-inicial-02.png" width="500"></td>
+  </tr>
+  <tr>
+    <td><img src="receitas-culinarias/imagens-site /tela-inicial-03.png" width="500"></td>
+    <td><img src="receitas-culinarias/imagens-site /tela-inicial-04.png" width="500"></td>
+  </tr>
+</table>
+
 
 ### 🍯 Exemplo de Receita — Categoria Molhos  
 Visualização de uma receita real dentro da categoria de molhos, com detalhes e dicas de preparo.  
