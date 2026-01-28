@@ -1,17 +1,16 @@
-
 <!doctype html>
 <html lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" href="imagens/logo.png" type="image/x-icon">
-  <title>Portal de Receitas Culinárias</title>
+  <link rel="shortcut icon" href="../imagens/logo.png" type="image/x-icon">
+  <title>Categoria - Pratos Principais</title>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
@@ -20,7 +19,7 @@
     <div class="container-fluid">
       <!-- Só uma imagem -->
       <a class="navbar-brand ms-5" href="#">
-        <img src="imagens/logo.png" width="50" height="50" alt=" " href="index.html">
+        <img src="../imagens/logo.png" width="50" height="50" alt=" " href="../index.html">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -30,11 +29,11 @@
         <ul class="navbar-nav">
           <!--Início (Home)-->
           <li class="nav-item">
-            <a class="nav-link home" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link home" aria-current="page" href="../index.html">Home</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link portal" aria-current="page" href="sobre.html">Sobre</a>
+            <a class="nav-link portal" aria-current="page" href="../sobre.html">Sobre</a>
           </li>
           
           <!--Categorias e subs-->
@@ -44,13 +43,13 @@
               Categorias
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item sub" href="entradas.html">Entradas</a></li>
-              <li><a class="dropdown-item sub" href="aperitivos.html">Aperitivos</a></li>
-              <li><a class="dropdown-item sub" href="pratosPrincipais.html">Pratos Principais</a></li>
-              <li><a class="dropdown-item sub" href="molhos.html">Molhos</a></li>
-              <li><a class="dropdown-item sub" href="sobremesas.html">Sobremesas</a></li>
-              <li><a class="dropdown-item sub" href="bolos.html">Bolos</a></li>
-              <li><a class="dropdown-item sub" href="bebidas.html">Bebidas</a></li>
+              <li><a class="dropdown-item sub" href="../categoria/aperitivos.html">Aperitivos</a></li>
+              <li><a class="dropdown-item sub" href="../categoria/bebidas.html">Bebidas</a></li>
+              <li><a class="dropdown-item sub" href="../categoria/bolos.html">Bolos</a></li>
+              <li><a class="dropdown-item sub" href="../categoria/entradas.html">Entradas</a></li>
+              <li><a class="dropdown-item sub" href="../categoria/molhos.html">Molhos</a></li>
+              <li><a class="dropdown-item sub" href="../categoria/pratos-principais.html">Pratos Principais</a></li>
+              <li><a class="dropdown-item sub" href="../categoria/sobremesas.html">Sobremesas</a></li>
             </ul>
         </ul>
 
@@ -73,12 +72,12 @@
 
           <section id="menu-logado" class="d-none">
             <li class="nav-item">
-              <a class="nav-link" href="receitasADD.html" title="Adicionar Receitas" id="adicionarReceitaIcone">
+              <a class="nav-link" href="../receitas-add.html" title="Adicionar Receitas" id="adicionarReceitaIcone">
                 <i class="bi bi-journal-plus" id="adicionarReceita"></i>
               </a>
             </li>
             <li class="nav-item">
-              <i class="bi bi-bookmark-heart-fill" href="favoritos.html"></i>
+              <i class="bi bi-bookmark-heart-fill" href="../favorito.html"></i>
             </li>
             <li class="nav-item">
               <i class="bi bi-gear-fill"></i>
@@ -123,7 +122,7 @@
 
           <div class="col-md-4">
             <div class="card">
-              <img src="imagens/parmegiana.jpg" class="card-img-top">
+              <img src="../categoria/imagens/principal-parmegiana.jpg" class="card-img-top">
               <div class="card-body">
                 <h5 class="card-title">Filé à Parmegiana</h5>
                 <p class="card-text">Filé empanado com molho de tomate e queijo derretido.</p>
@@ -134,7 +133,7 @@
 
           <div class="col-md-4">
             <div class="card">
-              <img src="imagens/risoto-camarao.avif" class="card-img-top">
+              <img src="../categoria/imagens/principal-camarao.png" class="card-img-top">
               <div class="card-body">
                 <h5 class="card-title">Risoto de Camarão</h5>
                 <p class="card-text">Arroz cremoso com camarões suculentos e temperos especiais.</p>
@@ -145,18 +144,18 @@
 
           <div class="col-md-4">
             <div class="card">
-              <img src="imagens/risoto-funghi.avif" class="card-img-top">
+              <img src="../categoria/imagens/principal-funghi.png" class="card-img-top">
               <div class="card-body">
                 <h5 class="card-title">Risoto de Funghi com Parmesão</h5>
                 <p class="card-text">Creme suave e sabor intenso.</p>
-                <a href="receitas/molhoErvas.html" class="btn btn-primary">Ver Receita</a>
+                <a href="../receitas/principal-funghi.html" class="btn btn-primary">Ver Receita</a>
               </div>
             </div>
           </div>
 
           <div class="col-md-4">
             <div class="card">
-              <img src="imagens/frango-legumes.webp" class="card-img-top">
+              <img src="../categoria/imagens/principal-frango.webp" class="card-img-top">
               <div class="card-body">
                 <h5 class="card-title">Frango Grelhado com Legumes</h5>
                 <p class="card-text">Frango suculento servido com legumes frescos e temperados.</p>
@@ -167,7 +166,7 @@
 
           <div class="col-md-4">
             <div class="card">
-              <img src="imagens/picanha.jpg" class="card-img-top">
+              <img src="../categoria/imagens/principal-picanha.jpg" class="card-img-top">
               <div class="card-body">
                 <h5 class="card-title">Picanha na Chapa</h5>
                 <p class="card-text">Picanha macia e suculenta, acompanhada de farofa e vinagrete.</p>
@@ -178,7 +177,7 @@
 
           <div class="col-md-4">
             <div class="card">
-              <img src="imagens/espaguete-ao-molho-pesto.webp" class="card-img-top">
+              <img src="../categoria/imagens/principal-espaguete.webp" class="card-img-top">
               <div class="card-body">
                 <h5 class="card-title">Espaguete ao Pesto</h5>
                 <p class="card-text">Massa al dente com molho de manjericão e parmesão.</p>
@@ -189,18 +188,18 @@
 
           <div class="col-md-4">
             <div class="card">
-              <img src="imagens/file-ao-molho.jpg" class="card-img-top">
+              <img src="../categoria/imagens/principal-file.jpg" class="card-img-top">
               <div class="card-body">
                 <h5 class="card-title">Filé ao Molho de Mostarda</h5>
                 <p class="card-text">Suculenta e saborosa, com um toque picante e cremosa.</p>
-                <a href="receitas/molhoErvas.html" class="btn btn-primary">Ver Receita</a>
+                <a href="../receitas/principal-file.html" class="btn btn-primary">Ver Receita</a>
               </div>
             </div>
           </div>
 
           <div class="col-md-4">
             <div class="card">
-              <img src="imagens/moqueca.jpg" class="card-img-top">
+              <img src="../categoria/imagens/principal-moqueca.jpg" class="card-img-top">
               <div class="card-body">
                 <h5 class="card-title">Moqueca de Peixe</h5>
                 <p class="card-text">Peixe cozido no leite de coco com dendê e temperos frescos.</p>
@@ -291,7 +290,7 @@
 
               <form action="" class="">
                 <h2>
-                  <img src="imagens/logo.png" width="50" height="50" alt=""> Login
+                  <img src="../imagens/logo.png" width="50" height="50" alt=""> Login
                 </h2>
                 <div class="form-floating">
                   <input type="email" class="form-control" id="emailLog" placeholder="email.exemplo@gmail.com">
@@ -343,7 +342,7 @@
   </footer>
 
 
-  <script src="script.js"></script>
+  <script src="../javascript/script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
