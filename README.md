@@ -72,51 +72,103 @@ Visão geral da página inicial do site.
 
 <table>
   <tr>
-    <td><img src="receitas-culinarias/imagens-site /tela-inicial.png" width="500"></td>
-    <td><img src="receitas-culinarias/imagens-site /tela-inicial-02.png" width="500"></td>
+    <td><img src="receitas-culinarias/imagens-site/tela-inicial.png" width="500"></td>
+    <td><img src="receitas-culinarias/imagens-site/tela-inicial-02.png" width="500"></td>
   </tr>
   <tr>
-    <td><img src="receitas-culinarias/imagens-site /tela-inicial-03.png" width="500"></td>
-    <td><img src="receitas-culinarias/imagens-site /tela-inicial-04.png" width="500"></td>
+    <td><img src="receitas-culinarias/imagens-site/tela-inicial-03.png" width="500"></td>
+    <td><img src="receitas-culinarias/imagens-site/tela-inicial-04.png" width="500"></td>
   </tr>
+</table>
+
+
+### ⬇️ Final da Página Inicial  
+Rodapé e final da rolagem da página inicial.  
+
+<table>
+  <tr><img src="receitas-culinarias/imagens-site/final-tela-inicial.png" width="600"></tr>
 </table>
 
 
 ### 🍯 Exemplo de Receita — Categoria Molhos  
 Visualização de uma receita real dentro da categoria de molhos, com detalhes e dicas de preparo.  
-<img src="receitas/imagens/receita-molhos.png" width="650">
 
-### 🧺 Categorias — Aperitivos (Menu Aberto)  
-Tela da categoria **Aperitivos** com o menu de categorias aberto.  
-<img src="receitas/imagens/categorias-aperitivos-menu.png" width="650">
+<table>
+  <tr>
+    <td><img src="receitas-culinarias/imagens-site/tela-molhos.png" width="500"></td>
+    <td><img src="receitas-culinarias/imagens-site/tela-molhos-categorias.png" width="500"></td>
+  </tr>
+  <tr>
+    <td><img src="receitas-culinarias/imagens-site/tela-molhos-final.png" width="500"></td>
+  </tr>
+</table>
 
-### 🗂️ Categorias em Destaque na Página Inicial  
-Categorias exibidas ao rolar a página inicial.  
-<img src="receitas/imagens/categorias-home.png" width="650">
-
-### ⬇️ Final da Página Inicial  
-Rodapé e final da rolagem da página inicial.  
-<img src="receitas/imagens/final-home.png" width="650">
-
-### ✉️ Tela de Contato  
-Página para envio de mensagens.  
-<img src="receitas/imagens/contato.png" width="650">
-
-### ℹ️ Tela Sobre o Site  
-Informações sobre o projeto e sua proposta.  
-<img src="receitas/imagens/sobre.png" width="650">
-
-### ➕ Tela de Adicionar Receita  
-Formulário para cadastro de novas receitas.  
-<img src="receitas/imagens/adicionar-receita.png" width="650">
-
-### 🔐 Tela de Login e Logout  
-Autenticação e controle de acesso do usuário.  
-<img src="receitas/imagens/login-logout.png" width="650">
 
 ### 🍽️ Tela de Receita Individual  
 Página dedicada a uma receita específica, incluindo **comentários**.  
-<img src="receitas/imagens/receita-individual.png" width="650">
+
+<table>
+  <tr>
+    <td><img src="receitas-culinarias/imagens-site/receita-inicial.png" width="500"></td>
+    <td><img src="receitas-culinarias/imagens-site/receita-ingredientes.png" width="500"></td>
+  </tr>
+  <tr>
+    <td><img src="receitas-culinarias/imagens-site/receita-preparo.png" width="500"></td>
+    <td><img src="receitas-culinarias/imagens-site/receita-dica-comentario.png" width="500"></td>
+  </tr>
+</table>
+
+
+### 🧺 Categorias — Aperitivos (Menu Aberto)  
+Tela da categoria **Aperitivos** com o menu de categorias aberto.  
+
+<table>
+  <tr><img src="receitas-culinarias/imagens-site/menu-categorias.png" width="600"></tr>
+</table>
+
+
+### 🔐 Tela de Registro e Login  
+Autenticação e controle de acesso do usuário.  
+
+<table>
+  <tr>
+    <td><img src="receitas-culinarias/imagens-site/tela-registrar.png" width="500"></td>
+    <td><img src="receitas-culinarias/imagens-site/tela-login.png" width="500"></td>
+  </tr>
+</table>
+
+
+### ➕ Tela de Adicionar Receita  
+Formulário para cadastro de novas receitas.
+
+<table>
+  <tr>
+    <td><img src="receitas-culinarias/imagens-site/adicionar-receita.png" width="500"></td>
+    <td><img src="receitas-culinarias/imagens-site/adicionar-receita-formulario.png" width="500"></td>
+  </tr>
+  <tr>
+    <td><img src="receitas-culinarias/imagens-site/adicionar-receita-exemplo.png" width="500"></td>
+  </tr>
+</table>
+
+
+### ✉️ Tela de Contato  
+Página para envio de mensagens.  
+
+<table>
+  <tr><img src="receitas-culinarias/imagens-site/tela-contato.png" width="600"></tr>
+</table>
+
+
+### ℹ️ Tela Sobre o Site  
+Informações sobre o projeto e sua proposta.  
+
+<table>
+  <tr>
+    <td><img src="receitas-culinarias/imagens-site/tela-sobre.png" width="500"></td>
+    <td><img src="receitas-culinarias/imagens-site/tela-sobre-02.png" width="500"></td>
+  </tr>
+</table>
 
 ---
 
